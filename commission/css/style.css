@@ -1,0 +1,48 @@
+.mn {
+    width: 600px;
+    padding: 10px;
+    padding-top: 4.3rem;
+    position: fixed;
+    left: 25%;
+    right: 25%
+}
+
+.tab {
+    margin-top: 4rem;
+    padding: 10px;
+    display: none;
+}
+
+.tab-active {
+    display: block;
+}
+
+.mn button {
+    border: none;
+    background-color: transparent;
+    padding: 15px;
+    outline: none;
+}
+
+.mn button:hover {
+    color: rgb(24, 151, 255);
+    cursor: pointer;
+}
+
+.mn .active {
+    border-bottom: 2px solid rgb(24, 151, 255);
+    color: rgb(24, 151, 255);
+}
+
+.act {
+    float: right;
+}
+
+.content {
+    margin-top: 70px;
+    width: 100%;
+}
+
+.list {
+    margin-top: 10px;
+}
